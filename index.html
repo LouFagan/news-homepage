@@ -39,31 +39,55 @@
         <div class="menu">
           <img src="assets/images/icon-menu.svg" alt="menu close" />
         </div>
-      </div>
+    
       <nav class="navbar">
-        <ul>
-          <li>Home</li>
-          <li>New</li>
-          <li>Popular</li>
-          <li>Trending</li>
-          <li>Categories</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="top-section">
-        <div class="top-image">
-          <img src="./assets/images/image-web-3-mobile.jpg" alt="image" />
+        <div class="navbar__mobile">
+          <ul class="navbar__items__mobile">
+            <li class="navbar-item">Home</li>
+            <li class="navbar-item">New</li>
+            <li class="navbar-item">Popular</li>
+            <li class="navbar-item">Trending</li>
+            <li class="navbar-item">Categories</li>
+          </ul>
         </div>
-        <h1 class="main-title">The Bright Future of Web 3.0?</h1>
-        <p class="main-para">
-          We dive into the next evolution of the web that claims to put the
-          power of the platforms back into the hands of the people. But is it
-          really fulfilling its promise?
-        </p>
-        <button class="main-btn">Read more</button>
-      </section>
-      <section class="sidebar">
+        <div class="navbar__desktop">
+          <ul class="navbar__items__desktop">
+            <li class="navbar-item">Home</li>
+            <li class="navbar-item">New</li>
+            <li class="navbar-item">Popular</li>
+            <li class="navbar-item">Trending</li>
+            <li class="navbar-item">Categories</li>
+          </ul>
+        </div>
+          </div>
+      </nav>
+      <div class="top-image__mobile">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="image" />
+      </div>
+    </header>
+    <main> 
+      <div class="wrapper">
+        <section class="top-section">
+            <div class="top-image__desktop">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="image" />
+             
+            </div> 
+            <div class="col">
+              <div class="left__desktop">
+                <h1 class="main-title">The Bright Future of Web 3.0?</h1>
+              </div>
+              <div class="right__desktop">
+                <p class="main-para">
+                  We dive into the next evolution of the web that claims to put the
+                  power of the platforms back into the hands of the people. But is it
+                  really fulfilling its promise?
+                </p>
+                <button class="main-btn">Read more</button>
+              </div>
+            </div>
+        
+        </section>
+      <div class="sidebar">
         <h2 class="sidebar-title">New</h2>
         <h3 class="sidebar-subtitle">Hydrogen VS Electric Cars</h3>
         <p class="sidebar-para">
@@ -79,15 +103,62 @@
         <hr class="sidebar-hr" />
         <h3 class="sidebar-subtitle">Is VC Funding Drying Up?</h3>
         <p class="sidebar-para">
-          VC firms is down 50% YOY. We take a look at what that means.
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
         </p>
+      </div>
+        </div>    
+      <section class="bottom-section">
+        <div class="top">
+          <div class="left-side">
+            <img
+              class="bottom-section__img"
+              src="assets/images/image-retro-pcs.jpg"
+              alt=""
+            />
+          </div>
+          <div class="right-side">
+            <p class="right-side__nbr">01</p>
+            <h3 class="right-side__title">Reviving Retro PCs</h3>
+            <p class="right-side__main-para">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="middle">
+          <div class="left-side">
+            <img
+              class="bottom-section__img"
+              src="assets/images/image-top-laptops.jpg"
+              alt=""
+            />
+          </div>
+          <div class="right-side">
+            <p class="right-side__nbr">02</p>
+            <h3 class="right-side__title">Top 10 Laptops of 2022</h3>
+            <p class="right-side__main-para">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="left-side">
+            <img
+              class="bottom-section__img"
+              src="assets/images/image-gaming-growth.jpg"
+              alt=""
+            />
+          </div>
+          <div class="right-side">
+            <p class="right-side__nbr">03</p>
+            <h3 class="right-side__title">The Growth of Gaming</h3>
+            <p class="right-side__main-para">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
-
-    Private funding by 01 Reviving Retro PCs What happens when old PCs are given
-    modern upgrades? 02 Top 10 Laptops of 2022 Our best picks for various needs
-    and budgets. 03 The Growth of Gaming How the pandemic has sparked fresh
-    opportunities.
 
     <div class="attribution">
       Challenge by
