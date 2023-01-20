@@ -148,10 +148,6 @@ a:hover {
   color: var(--veryDarkblue);
 }
 
-/* .top-section {
-  padding: 1.3rem 0;
-} */
-
 .top-image__desktop {
   display: none;
 }
@@ -331,8 +327,7 @@ a:hover {
     max-width: 1440px;
     margin: 0 auto;
   }
-  /* margin: 0 5rem;
-  } */
+
   .main-btn {
     margin-top: 1rem;
   }
@@ -344,13 +339,6 @@ a:hover {
     width: 90%;
   }
 
-  /* .navbar__items__mobile {
-    display: none;
-  } */
-
-  /* .sidebar {
-    margin: 1.3rem 0;
-  } */
   .sidebar-subtitle {
     font-size: 1.2rem;
   }
