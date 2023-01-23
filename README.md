@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LouFagan/news-homepage.git)
-- Live Site URL: [Add live site URL here](https://gleeful-kheer-237c14.netlify.app)
+- Solution URL: [https://github.com/LouFagan/news-homepage.git]
+- Live Site URL: [https://gleeful-kheer-237c14.netlify.app]
 
 ## My process
 
