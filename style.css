@@ -122,6 +122,9 @@ a:hover {
 .menu-close {
   display: none;
 }
+.navbar {
+  display: flex;
+}
 
 .navbar__mobile {
   display: none;
@@ -131,6 +134,7 @@ a:hover {
   height: 100vh;
   top: 0;
   right: -16px;
+  transition: width 0.5s ease-in-out;
 }
 .navbar__desktop {
   display: none;
@@ -256,6 +260,7 @@ a:hover {
   }
   .navbar__desktop {
     display: flex;
+    opacity: 1;
     justify-content: flex-end;
     align-items: center;
   }
